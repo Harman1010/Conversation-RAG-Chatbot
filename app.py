@@ -15,7 +15,7 @@ with open(
 
 
 with open(
-    "checkpoints/topic_checkpoints.json",
+    "topic_checkpoints.json",
     "r",
     encoding="utf-8"
 ) as file:
