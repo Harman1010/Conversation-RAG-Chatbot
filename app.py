@@ -6,7 +6,7 @@ st.title("Conversation Persona Chatbot")
 
 
 with open(
-    "checkpoints/persona.json",
+    "persona.json",
     "r",
     encoding="utf-8"
 ) as file:
