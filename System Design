@@ -1,0 +1,40 @@
+# System Design
+
+## Overview
+
+The system follows a lightweight hybrid memory architecture designed for:
+- low latency
+- offline processing
+- scalable conversational memory
+- efficient retrieval
+
+The architecture combines:
+- local conversational memory
+- compressed checkpoint summaries
+- lightweight synchronization
+- contradiction-aware retrieval
+
+---
+
+# High-Level Architecture
+
+```text
+User Conversations
+        ↓
+Conversation Parser
+        ↓
+Chronological Processing
+        ↓
+Topic Segmentation
+        ↓
+Checkpoint Compression
+        ↓
+Persona Extraction
+        ↓
+Persona Drift Detection
+        ↓
+Offline Intent Classification
+        ↓
+Conflict Resolution
+        ↓
+Streamlit Interface
