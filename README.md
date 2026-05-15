@@ -1,6 +1,8 @@
 Adaptive Conversational Memory System
 
 Features
+
+
 Chronological conversation processing
 Topic segmentation
 Checkpoint-based memory compression
@@ -9,6 +11,8 @@ Persona drift detection
 Offline intent classification
 Contradiction-aware retrieval
 Streamlit interface
+
+
 Tech Stack
 Python
 Streamlit
@@ -16,6 +20,8 @@ Scikit-learn
 Pandas
 VADER Sentiment
 Sentence Transformers
+
+
 How Topic Detection Works
 
 The system processes messages chronologically and compares semantic similarity between conversation windows.
