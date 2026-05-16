@@ -1,0 +1,21 @@
+text,intent
+"Remind me to attend the meeting tomorrow",reminder
+"I feel really sad today",emotional-support
+"Please complete the assignment",action-item
+"Hey how are you?",small-talk
+"What is the weather today?",unknown
+"Call me tonight",reminder
+"I am feeling stressed",emotional-support
+"Submit the report today",action-item
+"Good morning",small-talk
+"Who won the match?",unknown
+"Remind me to study tomorrow",reminder
+"I feel lonely today",emotional-support
+"Please complete the project",action-item
+"Hello how are you?",small-talk
+"What time is it?",unknown
+"I am stressed about exams",emotional-support
+"Wake me up at 7 AM",reminder
+"Can you send the file?",action-item
+"Nice weather today",small-talk
+"Who invented Python?",unknown
